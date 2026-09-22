@@ -36,6 +36,8 @@ function findDb() {
     path.join(roaming, "UpNote", "upnote.sqlite3"),
     path.join(os.homedir(), "Library", "Containers", "com.getupnote.mac", "Data",
       "Library", "Application Support", "UpNote", "upnote.sqlite3"),
+    path.join(os.homedir(), "Library", "Containers", "com.getupnote.desktop", "Data",
+      "Library", "Application Support", "UpNote", "upnote.sqlite3"),
   ];
   for (const c of candidates) if (c && fs.existsSync(c)) return c;
   throw new Error(

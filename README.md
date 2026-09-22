@@ -131,7 +131,8 @@ Auto-detected database locations:
 
 - Windows (Store): `%LOCALAPPDATA%\Packages\24862ThomasDao.UpNote_kq65c2wy2rx02\LocalCache\Roaming\UpNote\upnote.sqlite3`
 - Windows (installer): `%APPDATA%\UpNote\upnote.sqlite3`
-- macOS: `~/Library/Containers/com.getupnote.mac/Data/Library/Application Support/UpNote/upnote.sqlite3`
+- macOS (older builds): `~/Library/Containers/com.getupnote.mac/Data/Library/Application Support/UpNote/upnote.sqlite3`
+- macOS (current builds): `~/Library/Containers/com.getupnote.desktop/Data/Library/Application Support/UpNote/upnote.sqlite3`
 
 ---
 
